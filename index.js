@@ -18,7 +18,7 @@ function functionUsingCallback(neg, nchg, dbl, sqr, src){
   neg(-1 * src[i])
   nchg(src[i])
   dbl(2 * src[i])
-  sqr(name)
+  sqr(src[i] * src[i])
 }
  
 

@@ -1,8 +1,23 @@
-function mapToNegativize(src) {
-  let r = []
-  for (let i = 0; i < src.length; i++ ) {
-    r.push(-1 * src[i]) // Unique work
-  }
-  return r
+function sayHello(name="") {
+  console.log(`Hello${name}`)
 }
+ 
+let sayHola = function(name="") {
+  console.log(`Hola${name}`)
+}
+ 
+functionUsingCallback(sayHello, sayHola, function(name="") {
+  console.log(`Ni Hao${name}`)
+}, " Gary")
+ 
+function functionUsingCallback(en, es, zh, name){
+  en(name)
+  es(name)
+  zh(name)
+}
+ 
+/* Prints */
+Hello Gary
+Hola Gary
+Ni Hao Gary
  

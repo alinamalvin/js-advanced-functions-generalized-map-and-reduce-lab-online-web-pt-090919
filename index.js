@@ -6,7 +6,7 @@ let sayHola = function(name="") {
   console.log(`Hola${name}`)
 }
  
-functionUsingCallback(mapToNegativize, mapToNoChange, mapToDouble, mapToSquare, function(src="") {
+ functionUsingCallback(mapToNegativize, mapToNoChange, mapToDouble, mapToSquare, function(src="") {
   let r = []
   for (let i = 0; i < src.length; i++ ) {
     r.push("${src}")

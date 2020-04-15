@@ -14,14 +14,10 @@ functionUsingCallback(mapToNegativize, mapToNoChange, mapToDouble, mapToSquare, 
   return r
 }
  
-function functionUsingCallback(en, es, zh, name){
-  en(name)
-  es(name)
-  zh(name)
+function functionUsingCallback(neg, nchg, dbl, sqr, src){
+  neg(name)
+  nchg(name)
+  dbl(name)
 }
  
-/* Prints */
-Hello Gary
-Hola Gary
-Ni Hao Gary
- 
+

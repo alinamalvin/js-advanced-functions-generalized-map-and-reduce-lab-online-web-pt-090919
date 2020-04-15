@@ -6,7 +6,7 @@ let sayHola = function(name="") {
   console.log(`Hola${name}`)
 }
  
-functionUsingCallback(mapToNegativize, mapToNoChange, function(name="") {
+functionUsingCallback(mapToNegativize, mapToNoChange, mapToDouble,  function(name="") {
   console.log(`Ni Hao${name}`)
 }, " Gary")
  

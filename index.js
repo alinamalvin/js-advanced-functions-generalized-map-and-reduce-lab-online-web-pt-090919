@@ -7,8 +7,9 @@ let sayHola = function(name="") {
 }
  
 functionUsingCallback(mapToNegativize, mapToNoChange, mapToDouble, mapToSquare, function(src="") {
+  let r = []
   for (let i = 0; i < src.length; i++ ) {
-    r.push(${src})
+    r.push("${src}")
 }
   return r
 }

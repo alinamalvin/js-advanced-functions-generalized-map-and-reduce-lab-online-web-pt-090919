@@ -7,7 +7,8 @@ let sayHola = function(name="") {
 }
  
 functionUsingCallback(mapToNegativize, mapToNoChange, mapToDouble, mapToSquare, function(src="") {
-  console.log(`Ni Hao${name}`)
+  for (let i = 0; i < src.length; i++ ) {
+    r.push(${src})
 }, " Gary")
  
 function functionUsingCallback(en, es, zh, name){

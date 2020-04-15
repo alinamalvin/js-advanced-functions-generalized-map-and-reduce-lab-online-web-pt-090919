@@ -1,4 +1,4 @@
-function sayHello(name="") {
+function mapToNegativize(src) {
   console.log(`Hello${name}`)
 }
  

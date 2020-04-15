@@ -17,7 +17,7 @@ functionUsingCallback(mapToNegativize, mapToNoChange, mapToDouble, mapToSquare, 
 function functionUsingCallback(neg, nchg, dbl, sqr, src){
   neg(-1 * src[i])
   nchg(src[i])
-  dbl(name)
+  dbl(2 * src[i])
   sqr(name)
 }
  

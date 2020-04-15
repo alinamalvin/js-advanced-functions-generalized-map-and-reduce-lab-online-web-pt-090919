@@ -9,7 +9,9 @@ let sayHola = function(name="") {
 functionUsingCallback(mapToNegativize, mapToNoChange, mapToDouble, mapToSquare, function(src="") {
   for (let i = 0; i < src.length; i++ ) {
     r.push(${src})
-}, " Gary")
+}
+  return r
+}
  
 function functionUsingCallback(en, es, zh, name){
   en(name)
